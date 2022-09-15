@@ -3,33 +3,44 @@ canvas: "https://damsssl.llgc.org.uk/iiif/2.0/4665992/canvas/4665993.json"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "testing",
-            "purpose": "commenting",
+            "created": "2022-09-15T21:55:33.515Z",
             "creator": {
                 "id": "annonatatencsu",
                 "name": "annonatatencsu"
             },
-            "created": "2022-09-15T21:55:33.515Z",
-            "modified": "2022-09-15T21:55:34.187Z"
+            "modified": "2022-09-15T21:55:34.187Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "testing"
+        },
+        {
+            "type": "TextualBody",
+            "value": "test2",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2022-09-15T21:57:45.728Z",
+            "modified": "2022-09-15T21:57:47.190Z"
         }
     ],
+    "id": "f3d90804-d2a5-4a53-b2d4-6f3d7574b183.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://damsssl.llgc.org.uk/iiif/2.0/4665992/canvas/4665993.json",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=8339.5908203125,12127.70703125,7572.224609375,4575.73046875"
-        },
         "dcterms:isPartOf": {
             "id": "https://damsssl.llgc.org.uk/iiif/2.0/4665992/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=8339.5908203125,12127.70703125,7572.224609375,4575.73046875"
+        },
+        "source": "https://damsssl.llgc.org.uk/iiif/2.0/4665992/canvas/4665993.json"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f3d90804-d2a5-4a53-b2d4-6f3d7574b183.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
