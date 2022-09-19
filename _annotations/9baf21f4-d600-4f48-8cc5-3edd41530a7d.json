@@ -1,0 +1,35 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/mc00336-1911Bldg-May2017"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "window test3",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatate",
+                "name": "Annonatate"
+            },
+            "created": "2022-09-19T16:04:08.546Z",
+            "modified": "2022-09-19T16:04:10.703Z"
+        }
+    ],
+    "target": {
+        "source": "https://d.lib.ncsu.edu/collections/canvas/mc00336-1911Bldg-May2017",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3188.36865234375,949.0526733398438,491.4736328125,463.22808837890625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://d.lib.ncsu.edu/collections/catalog/mc00336-1911Bldg-May2017/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "9baf21f4-d600-4f48-8cc5-3edd41530a7d.json",
+    "motivation": "commenting"
+}
