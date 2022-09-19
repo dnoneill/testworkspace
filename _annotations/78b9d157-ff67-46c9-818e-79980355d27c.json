@@ -15,21 +15,32 @@ order: 2
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "test1"
+        },
+        {
+            "type": "TextualBody",
+            "value": "test2",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2022-09-19T21:45:47.937Z",
+            "modified": "2022-09-19T21:45:49.231Z"
         }
     ],
     "id": "78b9d157-ff67-46c9-818e-79980355d27c.json",
     "motivation": "commenting",
     "target": {
-        "source": "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4728.384033203125,3341.8372802734375,1534.159912109375,753.3819580078125"
-        },
         "dcterms:isPartOf": {
             "id": "https://dnoneill.github.io/annotate/manifests/parismap.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4728.384033203125,3341.8372802734375,1534.159912109375,753.3819580078125"
+        },
+        "source": "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0"
     },
     "type": "Annotation"
 }
