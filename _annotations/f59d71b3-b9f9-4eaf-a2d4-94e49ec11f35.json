@@ -15,6 +15,17 @@ order: 2
             },
             "created": "2022-09-19T20:21:25.313Z",
             "modified": "2022-09-19T20:21:26.339Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "testing update",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2022-09-19T20:21:31.397Z",
+            "modified": "2022-09-19T20:21:33.545Z"
         }
     ],
     "target": {
