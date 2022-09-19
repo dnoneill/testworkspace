@@ -3,33 +3,33 @@ canvas: "https://d.lib.ncsu.edu/collections/canvas/mc00084-001-te0159-000-001_00
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "test",
-            "purpose": "commenting",
+            "created": "2022-09-19T20:16:14.161Z",
             "creator": {
                 "id": "annonatate",
                 "name": "Annonatate"
             },
-            "created": "2022-09-19T20:16:14.161Z",
-            "modified": "2022-09-19T20:16:15.873Z"
+            "modified": "2022-09-19T20:16:15.873Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "test"
         }
     ],
+    "id": "735ca3e2-dec0-4949-bf61-09a00c199273.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://d.lib.ncsu.edu/collections/canvas/mc00084-001-te0159-000-001_0001",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2400.172607421875,752.9239501953125,1373.333251953125,1144.4444580078125"
-        },
         "dcterms:isPartOf": {
             "id": "https://d.lib.ncsu.edu/collections/catalog/mc00084-001-te0159-000-001_0001/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2400.172607421875,752.9239501953125,1373.333251953125,1144.4444580078125"
+        },
+        "source": "https://d.lib.ncsu.edu/collections/canvas/mc00084-001-te0159-000-001_0001"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "735ca3e2-dec0-4949-bf61-09a00c199273.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
