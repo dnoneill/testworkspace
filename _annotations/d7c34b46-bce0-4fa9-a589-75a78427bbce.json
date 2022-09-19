@@ -39,15 +39,26 @@ order: 1
             "value": "testing3"
         },
         {
+            "created": "2022-09-19T21:09:31.484Z",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2022-09-19T21:09:32.248Z",
+            "purpose": "replying",
             "type": "TextualBody",
-            "value": "test4",
+            "value": "test4"
+        },
+        {
+            "type": "TextualBody",
+            "value": "test5",
             "purpose": "replying",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-09-19T21:09:31.484Z",
-            "modified": "2022-09-19T21:09:32.248Z"
+            "created": "2022-09-19T21:11:58.581Z",
+            "modified": "2022-09-19T21:11:59.289Z"
         }
     ],
     "id": "d7c34b46-bce0-4fa9-a589-75a78427bbce.json",
