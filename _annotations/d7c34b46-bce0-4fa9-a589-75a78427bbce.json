@@ -28,15 +28,15 @@ order: 1
             "value": "testing3"
         },
         {
-            "type": "TextualBody",
-            "value": "test update",
-            "purpose": "replying",
+            "created": "2022-09-19T21:18:02.036Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-09-19T21:18:02.036Z",
-            "modified": "2022-09-19T21:18:03.256Z"
+            "modified": "2022-09-19T21:25:46.882Z",
+            "purpose": "replying",
+            "type": "TextualBody",
+            "value": "test update 2"
         }
     ],
     "id": "d7c34b46-bce0-4fa9-a589-75a78427bbce.json",
