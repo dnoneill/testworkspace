@@ -17,15 +17,26 @@ order: 1
             "value": "testing"
         },
         {
-            "type": "TextualBody",
-            "value": "This is a different user from the browser on the right.",
-            "purpose": "commenting",
+            "created": "2022-09-19T17:50:40.531Z",
             "creator": {
                 "id": "annonatate",
                 "name": "Annonatate"
             },
-            "created": "2022-09-19T17:50:40.531Z",
-            "modified": "2022-09-19T17:50:54.099Z"
+            "modified": "2022-09-19T17:50:54.099Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "This is a different user from the browser on the right."
+        },
+        {
+            "type": "TextualBody",
+            "value": "testing3",
+            "purpose": "replying",
+            "creator": {
+                "id": "annonatate",
+                "name": "Annonatate"
+            },
+            "created": "2022-09-19T20:41:42.967Z",
+            "modified": "2022-09-19T20:41:43.897Z"
         }
     ],
     "id": "d7c34b46-bce0-4fa9-a589-75a78427bbce.json",
