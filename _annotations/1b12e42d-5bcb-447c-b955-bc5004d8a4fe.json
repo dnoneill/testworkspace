@@ -1,0 +1,35 @@
+---
+canvas: "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2022-09-19T17:29:54.134Z",
+            "modified": "2022-09-19T17:29:54.516Z"
+        }
+    ],
+    "target": {
+        "source": "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3895.458740234375,1824.4703369140625,1689.029541015625,2278.5960693359375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/annotate/manifests/parismap.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "1b12e42d-5bcb-447c-b955-bc5004d8a4fe.json",
+    "motivation": "commenting"
+}
