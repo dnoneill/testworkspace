@@ -3,44 +3,44 @@ canvas: "https://d.lib.ncsu.edu/collections/canvas/mc00084-001-te0159-000-001_00
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "testing3",
-            "purpose": "commenting",
+            "created": "2022-09-19T20:21:25.313Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-09-19T20:21:25.313Z",
-            "modified": "2022-09-19T20:21:26.339Z"
+            "modified": "2022-09-19T20:21:26.339Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "testing3"
         },
         {
-            "type": "TextualBody",
-            "value": "testing update",
-            "purpose": "commenting",
+            "created": "2022-09-19T20:21:31.397Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-09-19T20:21:31.397Z",
-            "modified": "2022-09-19T20:21:33.545Z"
+            "modified": "2022-09-19T20:21:33.545Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "testing update"
         }
     ],
+    "id": "f59d71b3-b9f9-4eaf-a2d4-94e49ec11f35.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://d.lib.ncsu.edu/collections/canvas/mc00084-001-te0159-000-001_0001",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4955.40283203125,1639.287109375,1611.56396484375,1289.25146484375"
-        },
         "dcterms:isPartOf": {
             "id": "https://d.lib.ncsu.edu/collections/catalog/mc00084-001-te0159-000-001_0001/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4955.40283203125,1639.287109375,1611.56396484375,1289.25146484375"
+        },
+        "source": "https://d.lib.ncsu.edu/collections/canvas/mc00084-001-te0159-000-001_0001"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f59d71b3-b9f9-4eaf-a2d4-94e49ec11f35.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
