@@ -28,15 +28,26 @@ order: 1
             "value": "This is a different user from the browser on the right."
         },
         {
-            "type": "TextualBody",
-            "value": "testing3",
-            "purpose": "replying",
+            "created": "2022-09-19T20:41:42.967Z",
             "creator": {
                 "id": "annonatate",
                 "name": "Annonatate"
             },
-            "created": "2022-09-19T20:41:42.967Z",
-            "modified": "2022-09-19T20:41:43.897Z"
+            "modified": "2022-09-19T20:41:43.897Z",
+            "purpose": "replying",
+            "type": "TextualBody",
+            "value": "testing3"
+        },
+        {
+            "type": "TextualBody",
+            "value": "test4",
+            "purpose": "replying",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2022-09-19T21:09:31.484Z",
+            "modified": "2022-09-19T21:09:32.248Z"
         }
     ],
     "id": "d7c34b46-bce0-4fa9-a589-75a78427bbce.json",
