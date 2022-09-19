@@ -26,6 +26,17 @@ order: 1
             "purpose": "replying",
             "type": "TextualBody",
             "value": "testing3"
+        },
+        {
+            "type": "TextualBody",
+            "value": "test update",
+            "purpose": "replying",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2022-09-19T21:18:02.036Z",
+            "modified": "2022-09-19T21:18:03.256Z"
         }
     ],
     "id": "d7c34b46-bce0-4fa9-a589-75a78427bbce.json",
