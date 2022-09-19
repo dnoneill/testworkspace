@@ -17,15 +17,26 @@ order: 1
             "value": "window test"
         },
         {
-            "type": "TextualBody",
-            "value": "window test 2",
-            "purpose": "commenting",
+            "created": "2022-09-19T16:04:03.144Z",
             "creator": {
                 "id": "annonatate",
                 "name": "Annonatate"
             },
-            "created": "2022-09-19T16:04:03.144Z",
-            "modified": "2022-09-19T16:04:04.780Z"
+            "modified": "2022-09-19T16:04:04.780Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "window test 2"
+        },
+        {
+            "type": "TextualBody",
+            "value": "window test 3",
+            "purpose": "replying",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2022-09-19T16:06:27.977Z",
+            "modified": "2022-09-19T16:06:29.783Z"
         }
     ],
     "id": "d26a9bfa-e0d1-4d5f-b1cb-6ee05847e761.json",
