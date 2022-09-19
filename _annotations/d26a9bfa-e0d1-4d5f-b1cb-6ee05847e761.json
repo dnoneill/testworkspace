@@ -3,33 +3,44 @@ canvas: "https://d.lib.ncsu.edu/collections/canvas/mc00336-1911Bldg-May2017"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "window test",
-            "purpose": "commenting",
+            "created": "2022-09-19T16:03:15.231Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-09-19T16:03:15.231Z",
-            "modified": "2022-09-19T16:03:16.798Z"
+            "modified": "2022-09-19T16:03:16.798Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "window test"
+        },
+        {
+            "type": "TextualBody",
+            "value": "window test 2",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatate",
+                "name": "Annonatate"
+            },
+            "created": "2022-09-19T16:04:03.144Z",
+            "modified": "2022-09-19T16:04:04.780Z"
         }
     ],
+    "id": "d26a9bfa-e0d1-4d5f-b1cb-6ee05847e761.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://d.lib.ncsu.edu/collections/canvas/mc00336-1911Bldg-May2017",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1737.499755859375,880.2498168945312,492.29150390625,532.8333129882812"
-        },
         "dcterms:isPartOf": {
             "id": "https://d.lib.ncsu.edu/collections/catalog/mc00336-1911Bldg-May2017/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1737.499755859375,880.2498168945312,492.29150390625,532.8333129882812"
+        },
+        "source": "https://d.lib.ncsu.edu/collections/canvas/mc00336-1911Bldg-May2017"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "d26a9bfa-e0d1-4d5f-b1cb-6ee05847e761.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
