@@ -3,33 +3,44 @@ canvas: "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "testing",
-            "purpose": "commenting",
+            "created": "2022-09-20T18:39:12.241Z",
             "creator": {
                 "id": "annonatate",
                 "name": "Annonatate"
             },
-            "created": "2022-09-20T18:39:12.241Z",
-            "modified": "2022-09-20T18:39:13.221Z"
+            "modified": "2022-09-20T18:39:13.221Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "testing"
+        },
+        {
+            "type": "TextualBody",
+            "value": "update",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2022-09-20T18:39:58.922Z",
+            "modified": "2022-09-20T18:39:59.464Z"
         }
     ],
+    "id": "8b8c27fd-e4bf-43cd-bd50-8f8578aa3e5f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2037.30322265625,1034.1881103515625,2397.12451171875,2273.8441162109375"
-        },
         "dcterms:isPartOf": {
             "id": "https://dnoneill.github.io/annotate/manifests/parismap.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2037.30322265625,1034.1881103515625,2397.12451171875,2273.8441162109375"
+        },
+        "source": "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8b8c27fd-e4bf-43cd-bd50-8f8578aa3e5f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
