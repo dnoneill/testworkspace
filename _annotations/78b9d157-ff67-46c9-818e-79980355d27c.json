@@ -15,28 +15,6 @@ order: 2
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "test1"
-        },
-        {
-            "created": "2022-09-19T21:45:47.937Z",
-            "creator": {
-                "id": "dnoneill",
-                "name": "dnoneill"
-            },
-            "modified": "2022-09-19T21:45:49.231Z",
-            "purpose": "commenting",
-            "type": "TextualBody",
-            "value": "test2"
-        },
-        {
-            "type": "TextualBody",
-            "value": "test3",
-            "purpose": "replying",
-            "creator": {
-                "id": "dnoneill",
-                "name": "dnoneill"
-            },
-            "created": "2022-09-19T22:17:10.565Z",
-            "modified": "2022-09-19T22:17:11.597Z"
         }
     ],
     "id": "78b9d157-ff67-46c9-818e-79980355d27c.json",
