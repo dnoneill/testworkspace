@@ -17,15 +17,26 @@ order: 1
             "value": "tet"
         },
         {
+            "created": "2022-09-20T20:28:04.348Z",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2022-09-20T20:28:07.019Z",
+            "purpose": "replying",
             "type": "TextualBody",
-            "value": "test6",
+            "value": "test6"
+        },
+        {
+            "type": "TextualBody",
+            "value": "test7",
             "purpose": "replying",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-09-20T20:28:04.348Z",
-            "modified": "2022-09-20T20:28:07.019Z"
+            "created": "2022-09-20T20:28:53.957Z",
+            "modified": "2022-09-20T20:28:55.700Z"
         }
     ],
     "id": "0c27f2f0-4581-4e26-a778-c347e0e786a9.json",
