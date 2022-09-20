@@ -3,33 +3,44 @@ canvas: "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
+            "created": "2022-09-20T17:56:05.644Z",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2022-09-20T17:56:06.268Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "test",
+            "value": "test"
+        },
+        {
+            "type": "TextualBody",
+            "value": "testing2",
             "purpose": "commenting",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-09-20T17:56:05.644Z",
-            "modified": "2022-09-20T17:56:06.268Z"
+            "created": "2022-09-20T17:57:54.230Z",
+            "modified": "2022-09-20T17:57:56.938Z"
         }
     ],
+    "id": "7a8ed0e4-e228-48d7-89df-41776529e427.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2383.8720703125,1625.9886474609375,2152.82421875,1728.3236083984375"
-        },
         "dcterms:isPartOf": {
             "id": "https://dnoneill.github.io/annotate/manifests/parismap.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2383.8720703125,1625.9886474609375,2152.82421875,1728.3236083984375"
+        },
+        "source": "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7a8ed0e4-e228-48d7-89df-41776529e427.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
