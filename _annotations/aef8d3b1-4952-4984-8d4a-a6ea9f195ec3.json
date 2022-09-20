@@ -15,17 +15,6 @@ order: 1
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "testing blah blah"
-        },
-        {
-            "type": "TextualBody",
-            "value": "update me",
-            "purpose": "commenting",
-            "creator": {
-                "id": "dnoneill",
-                "name": "dnoneill"
-            },
-            "created": "2022-09-20T18:34:34.768Z",
-            "modified": "2022-09-20T18:34:35.600Z"
         }
     ],
     "id": "aef8d3b1-4952-4984-8d4a-a6ea9f195ec3.json",
