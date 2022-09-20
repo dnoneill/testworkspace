@@ -22,21 +22,21 @@ order: 1
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "modified": "2022-09-20T17:57:56.938Z",
+            "modified": "2022-09-20T18:05:03.964Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "testing2"
+            "value": "testing2 update"
         },
         {
-            "type": "TextualBody",
-            "value": "testing3",
-            "purpose": "replying",
+            "created": "2022-09-20T18:00:04.495Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-09-20T18:00:04.495Z",
-            "modified": "2022-09-20T18:00:05.991Z"
+            "modified": "2022-09-20T18:00:05.991Z",
+            "purpose": "replying",
+            "type": "TextualBody",
+            "value": "testing3"
         }
     ],
     "id": "7a8ed0e4-e228-48d7-89df-41776529e427.json",
