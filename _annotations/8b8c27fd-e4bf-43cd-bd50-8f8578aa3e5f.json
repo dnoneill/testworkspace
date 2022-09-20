@@ -6,26 +6,15 @@ order: 1
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "created": "2022-09-20T18:39:12.241Z",
-            "creator": {
-                "id": "annonatate",
-                "name": "Annonatate"
-            },
-            "modified": "2022-09-20T18:39:13.221Z",
-            "purpose": "commenting",
-            "type": "TextualBody",
-            "value": "testing"
-        },
-        {
-            "type": "TextualBody",
-            "value": "update",
-            "purpose": "commenting",
+            "created": "2022-09-20T18:39:58.922Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-09-20T18:39:58.922Z",
-            "modified": "2022-09-20T18:39:59.464Z"
+            "modified": "2022-09-20T18:39:59.464Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "update"
         }
     ],
     "id": "8b8c27fd-e4bf-43cd-bd50-8f8578aa3e5f.json",
