@@ -6,17 +6,6 @@ order: 1
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "created": "2022-09-20T17:56:05.644Z",
-            "creator": {
-                "id": "dnoneill",
-                "name": "dnoneill"
-            },
-            "modified": "2022-09-20T17:56:06.268Z",
-            "purpose": "commenting",
-            "type": "TextualBody",
-            "value": "test"
-        },
-        {
             "created": "2022-09-20T18:21:48.511Z",
             "creator": {
                 "id": "annonatate",
