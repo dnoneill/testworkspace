@@ -28,15 +28,26 @@ order: 1
             "value": "test"
         },
         {
+            "created": "2022-09-20T20:26:40.889Z",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2022-09-20T20:26:43.035Z",
+            "purpose": "replying",
             "type": "TextualBody",
-            "value": "test4",
+            "value": "test4"
+        },
+        {
+            "type": "TextualBody",
+            "value": "test5",
             "purpose": "replying",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-09-20T20:26:40.889Z",
-            "modified": "2022-09-20T20:26:43.035Z"
+            "created": "2022-09-20T20:27:28.608Z",
+            "modified": "2022-09-20T20:27:29.793Z"
         }
     ],
     "id": "0c27f2f0-4581-4e26-a778-c347e0e786a9.json",
