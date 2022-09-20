@@ -15,17 +15,6 @@ order: 1
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "Harrelson"
-        },
-        {
-            "type": "TextualBody",
-            "value": "harrelson 2",
-            "purpose": "commenting",
-            "creator": {
-                "id": "dnoneill",
-                "name": "dnoneill"
-            },
-            "created": "2022-09-20T20:08:52.798Z",
-            "modified": "2022-09-20T20:08:55.913Z"
         }
     ],
     "id": "df71c95f-dba6-4790-aaf7-41216ac0d58d.json",
