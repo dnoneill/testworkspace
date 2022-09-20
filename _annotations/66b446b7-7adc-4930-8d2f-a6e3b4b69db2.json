@@ -15,17 +15,6 @@ order: 2
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "door 2"
-        },
-        {
-            "type": "TextualBody",
-            "value": "door 2 reply",
-            "purpose": "replying",
-            "creator": {
-                "id": "annonatate",
-                "name": "Annonatate"
-            },
-            "created": "2022-09-20T20:38:16.547Z",
-            "modified": "2022-09-20T20:38:23.336Z"
         }
     ],
     "id": "66b446b7-7adc-4930-8d2f-a6e3b4b69db2.json",
