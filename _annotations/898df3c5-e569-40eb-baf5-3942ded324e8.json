@@ -1,0 +1,35 @@
+---
+canvas: "https://pm20.zbw.eu/iiif/folder/pe/000012/00001/0001/canvas"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "<strong>Testing strong</strong>",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2022-10-04T21:31:47.599Z",
+            "modified": "2022-10-04T21:31:54.257Z"
+        }
+    ],
+    "target": {
+        "source": "https://pm20.zbw.eu/iiif/folder/pe/000012/00001/0001/canvas",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=680.33935546875,765.6632690429688,1008.182861328125,833.5369262695312"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/testworkspace/manifests/pe/000012/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "898df3c5-e569-40eb-baf5-3942ded324e8.json",
+    "motivation": "commenting"
+}
