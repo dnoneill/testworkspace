@@ -1,0 +1,1255 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://dnoneill.github.io/testworkspace/manifests/pe/000012/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Abbe, Ernst"
+    ],
+    "de": [
+      "Abbe, Ernst"
+    ]
+  },
+  "rights": "http://rightsstatements.org/vocab/NKC/1.0/",
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ],
+      "de": [
+        "Zuordnung"
+      ]
+    },
+    "value": {
+      "en": [
+        "Provided by <a href='https://www.zbw.eu/en/'><img src='https://pm20.zbw.eu/images/ZBW-Logo_200px_01.png' alt='ZBW - Leibniz Information Centre for Economics'></a>"
+      ],
+      "de": [
+        "Bereitgestellt von <a href='https://www.zbw.eu/de/'><img src='https://pm20.zbw.eu/images/ZBW-Logo_200px_01.png' alt='ZBW - Leibniz Informationszentrum Wirtschaft'></a>"
+      ]
+    }
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Life time"
+        ],
+        "de": [
+          "Lebenszeit"
+        ]
+      },
+      "value": {
+        "none": [
+          "1840-1905"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Folder home (persistent URI)"
+        ],
+        "de": [
+          "Mappen Homepage (persistente URI)"
+        ]
+      },
+      "value": {
+        "none": [
+          "<a href='http://purl.org/pressemappe20/folder/pe/000012'>http://purl.org/pressemappe20/folder/pe/000012</a>"
+        ]
+      }
+    }
+  ],
+  "provider": [
+    {
+      "id": "https://www.zbw.eu",
+      "type": "Agent",
+      "homepage": [
+        {
+          "id": "http://purl.org/pressemappe20/folder/pe/000012",
+          "type": "Text",
+          "format": "text/html",
+          "language": [
+            "en",
+            "de"
+          ]
+        }
+      ],
+      "logo": [
+        {
+          "id": "https://www.zbw.eu/fileadmin/images/press/logos/logo-zbw.gif",
+          "type": "Image",
+          "format": "image/gif"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00001/0001/canvas",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "p. 1 of El-Chaiaty, Aly: Ernst Abbe (Norddeutsche Allgemeine Zeitung, (Berlin) Nr. 299, 1918-06-14)"
+        ],
+        "de": [
+          "S. 1 von El-Chaiaty, Aly: Ernst Abbe (Norddeutsche Allgemeine Zeitung, (Berlin) Nr. 299, 1918-06-14)"
+        ]
+      },
+      "width": 2480,
+      "height": 3508,
+      "thumbnail": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00001/0001/thumbnail.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Persistent document URI"
+            ],
+            "de": [
+              "Persistente Dokument-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00001"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Persistent page URI"
+            ],
+            "de": [
+              "Persistente Seiten-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00001/0001"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00001/0001/ap",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00001/0001/a",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00001/0001/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00001/0001",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://pm20.zbw.eu/iiif/folder/pe/000012/00001/0001/canvas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00002/0001/canvas",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "p. 1 of El-Chaiaty, Aly: Buchbesprechung : Felix Auerbach - Ernst Abbe, Sein Leben und Wirken. (Deutsche Allgemeine Zeitung, 1919-07-02)"
+        ],
+        "de": [
+          "S. 1 von El-Chaiaty, Aly: Buchbesprechung : Felix Auerbach - Ernst Abbe, Sein Leben und Wirken. (Deutsche Allgemeine Zeitung, 1919-07-02)"
+        ]
+      },
+      "width": 2480,
+      "height": 3508,
+      "thumbnail": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00002/0001/thumbnail.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Persistent document URI"
+            ],
+            "de": [
+              "Persistente Dokument-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00002"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Persistent page URI"
+            ],
+            "de": [
+              "Persistente Seiten-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00002/0001"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00002/0001/ap",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00002/0001/a",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00002/0001/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00002/0001",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://pm20.zbw.eu/iiif/folder/pe/000012/00002/0001/canvas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00004/0001/canvas",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "p. 1 of Moritz von Rohr: Ernst Abbes Bedeutung f\u00fcr die Technik : Zu seinem 25. Todestag (VDI-Nachrichten, 1930-01-15) (2 p.)"
+        ],
+        "de": [
+          "S. 1 von Moritz von Rohr: Ernst Abbes Bedeutung f\u00fcr die Technik : Zu seinem 25. Todestag (VDI-Nachrichten, 1930-01-15) (2 S.)"
+        ]
+      },
+      "width": 2480,
+      "height": 3508,
+      "thumbnail": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00004/0001/thumbnail.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Persistent document URI"
+            ],
+            "de": [
+              "Persistente Dokument-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00004"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Persistent page URI"
+            ],
+            "de": [
+              "Persistente Seiten-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00004/0001"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00004/0001/ap",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00004/0001/a",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00004/0001/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00004/0001",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://pm20.zbw.eu/iiif/folder/pe/000012/00004/0001/canvas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00004/0002/canvas",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "p. 2 of Moritz von Rohr: Ernst Abbes Bedeutung f\u00fcr die Technik : Zu seinem 25. Todestag (VDI-Nachrichten, 1930-01-15) (2 p.)"
+        ],
+        "de": [
+          "S. 2 von Moritz von Rohr: Ernst Abbes Bedeutung f\u00fcr die Technik : Zu seinem 25. Todestag (VDI-Nachrichten, 1930-01-15) (2 S.)"
+        ]
+      },
+      "width": 2480,
+      "height": 3508,
+      "thumbnail": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00004/0002/thumbnail.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Persistent document URI"
+            ],
+            "de": [
+              "Persistente Dokument-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00004"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Persistent page URI"
+            ],
+            "de": [
+              "Persistente Seiten-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00004/0002"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00004/0002/ap",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00004/0002/a",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00004/0002/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00004/0002",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://pm20.zbw.eu/iiif/folder/pe/000012/00004/0002/canvas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00005/0001/canvas",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "p. 1 of Rohr, Moritz von: Ernst Abbe (Volksblatt, 1930-04-12) (2 p.)"
+        ],
+        "de": [
+          "S. 1 von Rohr, Moritz von: Ernst Abbe (Volksblatt, 1930-04-12) (2 S.)"
+        ]
+      },
+      "width": 2480,
+      "height": 3508,
+      "thumbnail": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00005/0001/thumbnail.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Persistent document URI"
+            ],
+            "de": [
+              "Persistente Dokument-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00005"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Persistent page URI"
+            ],
+            "de": [
+              "Persistente Seiten-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00005/0001"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00005/0001/ap",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00005/0001/a",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00005/0001/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00005/0001",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://pm20.zbw.eu/iiif/folder/pe/000012/00005/0001/canvas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00005/0002/canvas",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "p. 2 of Rohr, Moritz von: Ernst Abbe (Volksblatt, 1930-04-12) (2 p.)"
+        ],
+        "de": [
+          "S. 2 von Rohr, Moritz von: Ernst Abbe (Volksblatt, 1930-04-12) (2 S.)"
+        ]
+      },
+      "width": 2480,
+      "height": 3508,
+      "thumbnail": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00005/0002/thumbnail.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Persistent document URI"
+            ],
+            "de": [
+              "Persistente Dokument-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00005"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Persistent page URI"
+            ],
+            "de": [
+              "Persistente Seiten-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00005/0002"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00005/0002/ap",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00005/0002/a",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00005/0002/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00005/0002",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://pm20.zbw.eu/iiif/folder/pe/000012/00005/0002/canvas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00008/0001/canvas",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "p. 1 of Press article 00008 (2 p.)"
+        ],
+        "de": [
+          "S. 1 von Presseartikel 00008 (2 S.)"
+        ]
+      },
+      "width": 2480,
+      "height": 3508,
+      "thumbnail": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00008/0001/thumbnail.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Persistent document URI"
+            ],
+            "de": [
+              "Persistente Dokument-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00008"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Persistent page URI"
+            ],
+            "de": [
+              "Persistente Seiten-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00008/0001"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00008/0001/ap",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00008/0001/a",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00008/0001/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00008/0001",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://pm20.zbw.eu/iiif/folder/pe/000012/00008/0001/canvas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00008/0002/canvas",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "p. 2 of Press article 00008 (2 p.)"
+        ],
+        "de": [
+          "S. 2 von Presseartikel 00008 (2 S.)"
+        ]
+      },
+      "width": 2480,
+      "height": 3508,
+      "thumbnail": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00008/0002/thumbnail.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Persistent document URI"
+            ],
+            "de": [
+              "Persistente Dokument-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00008"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Persistent page URI"
+            ],
+            "de": [
+              "Persistente Seiten-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00008/0002"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00008/0002/ap",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00008/0002/a",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00008/0002/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00008/0002",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://pm20.zbw.eu/iiif/folder/pe/000012/00008/0002/canvas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00009/0001/canvas",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "p. 1 of Press article 00009"
+        ],
+        "de": [
+          "S. 1 von Presseartikel 00009"
+        ]
+      },
+      "width": 2480,
+      "height": 3508,
+      "thumbnail": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00009/0001/thumbnail.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Persistent document URI"
+            ],
+            "de": [
+              "Persistente Dokument-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00009"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Persistent page URI"
+            ],
+            "de": [
+              "Persistente Seiten-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00009/0001"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00009/0001/ap",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00009/0001/a",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00009/0001/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00009/0001",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://pm20.zbw.eu/iiif/folder/pe/000012/00009/0001/canvas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00010/0001/canvas",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "p. 1 of Press article 00010"
+        ],
+        "de": [
+          "S. 1 von Presseartikel 00010"
+        ]
+      },
+      "width": 2480,
+      "height": 3508,
+      "thumbnail": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00010/0001/thumbnail.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Persistent document URI"
+            ],
+            "de": [
+              "Persistente Dokument-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00010"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Persistent page URI"
+            ],
+            "de": [
+              "Persistente Seiten-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00010/0001"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00010/0001/ap",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00010/0001/a",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00010/0001/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00010/0001",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://pm20.zbw.eu/iiif/folder/pe/000012/00010/0001/canvas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00011/0001/canvas",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "p. 1 of Press article 00011"
+        ],
+        "de": [
+          "S. 1 von Presseartikel 00011"
+        ]
+      },
+      "width": 2480,
+      "height": 3508,
+      "thumbnail": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00011/0001/thumbnail.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Persistent document URI"
+            ],
+            "de": [
+              "Persistente Dokument-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00011"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Persistent page URI"
+            ],
+            "de": [
+              "Persistente Seiten-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00011/0001"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00011/0001/ap",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00011/0001/a",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00011/0001/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00011/0001",
+                    "type": "ImageService3",
+                    "profile": "level0"
+                  }
+                ]
+              },
+              "target": "https://pm20.zbw.eu/iiif/folder/pe/000012/00011/0001/canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00001",
+      "type": "Range",
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Persistent document URI"
+            ],
+            "de": [
+              "Persistente Dokumenten-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00001"
+            ]
+          }
+        }
+      ],
+      "label": {
+        "en": [
+          "El-Chaiaty, Aly: Ernst Abbe (Norddeutsche Allgemeine Zeitung, (Berlin) Nr. 299, 1918-06-14)"
+        ],
+        "de": [
+          "El-Chaiaty, Aly: Ernst Abbe (Norddeutsche Allgemeine Zeitung, (Berlin) Nr. 299, 1918-06-14)"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00001/0001/canvas",
+          "type": "Canvas"
+        }
+      ]
+    },
+    {
+      "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00002",
+      "type": "Range",
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Persistent document URI"
+            ],
+            "de": [
+              "Persistente Dokumenten-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00002"
+            ]
+          }
+        }
+      ],
+      "label": {
+        "en": [
+          "El-Chaiaty, Aly: Buchbesprechung : Felix Auerbach - Ernst Abbe, Sein Leben und Wirken. (Deutsche Allgemeine Zeitung, 1919-07-02)"
+        ],
+        "de": [
+          "El-Chaiaty, Aly: Buchbesprechung : Felix Auerbach - Ernst Abbe, Sein Leben und Wirken. (Deutsche Allgemeine Zeitung, 1919-07-02)"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00002/0001/canvas",
+          "type": "Canvas"
+        }
+      ]
+    },
+    {
+      "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00004",
+      "type": "Range",
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Persistent document URI"
+            ],
+            "de": [
+              "Persistente Dokumenten-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00004"
+            ]
+          }
+        }
+      ],
+      "label": {
+        "en": [
+          "Moritz von Rohr: Ernst Abbes Bedeutung f\u00fcr die Technik : Zu seinem 25. Todestag (VDI-Nachrichten, 1930-01-15) (2 p.)"
+        ],
+        "de": [
+          "Moritz von Rohr: Ernst Abbes Bedeutung f\u00fcr die Technik : Zu seinem 25. Todestag (VDI-Nachrichten, 1930-01-15) (2 S.)"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00004/0001/canvas",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00004/0002/canvas",
+          "type": "Canvas"
+        }
+      ]
+    },
+    {
+      "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00005",
+      "type": "Range",
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Persistent document URI"
+            ],
+            "de": [
+              "Persistente Dokumenten-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00005"
+            ]
+          }
+        }
+      ],
+      "label": {
+        "en": [
+          "Rohr, Moritz von: Ernst Abbe (Volksblatt, 1930-04-12) (2 p.)"
+        ],
+        "de": [
+          "Rohr, Moritz von: Ernst Abbe (Volksblatt, 1930-04-12) (2 S.)"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00005/0001/canvas",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00005/0002/canvas",
+          "type": "Canvas"
+        }
+      ]
+    },
+    {
+      "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00008",
+      "type": "Range",
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Persistent document URI"
+            ],
+            "de": [
+              "Persistente Dokumenten-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00008"
+            ]
+          }
+        }
+      ],
+      "label": {
+        "en": [
+          "Press article 00008 (2 p.)"
+        ],
+        "de": [
+          "Presseartikel 00008 (2 S.)"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00008/0001/canvas",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00008/0002/canvas",
+          "type": "Canvas"
+        }
+      ]
+    },
+    {
+      "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00009",
+      "type": "Range",
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Persistent document URI"
+            ],
+            "de": [
+              "Persistente Dokumenten-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00009"
+            ]
+          }
+        }
+      ],
+      "label": {
+        "en": [
+          "Press article 00009"
+        ],
+        "de": [
+          "Presseartikel 00009"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00009/0001/canvas",
+          "type": "Canvas"
+        }
+      ]
+    },
+    {
+      "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00010",
+      "type": "Range",
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Persistent document URI"
+            ],
+            "de": [
+              "Persistente Dokumenten-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00010"
+            ]
+          }
+        }
+      ],
+      "label": {
+        "en": [
+          "Press article 00010"
+        ],
+        "de": [
+          "Presseartikel 00010"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00010/0001/canvas",
+          "type": "Canvas"
+        }
+      ]
+    },
+    {
+      "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00011",
+      "type": "Range",
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Persistent document URI"
+            ],
+            "de": [
+              "Persistente Dokumenten-URI"
+            ]
+          },
+          "value": {
+            "none": [
+              "http://purl.org/pressemappe20/folder/pe/000012/00011"
+            ]
+          }
+        }
+      ],
+      "label": {
+        "en": [
+          "Press article 00011"
+        ],
+        "de": [
+          "Presseartikel 00011"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://pm20.zbw.eu/iiif/folder/pe/000012/00011/0001/canvas",
+          "type": "Canvas"
+        }
+      ]
+    }
+  ]
+}
