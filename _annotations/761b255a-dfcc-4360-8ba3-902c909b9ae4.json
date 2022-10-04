@@ -1,0 +1,35 @@
+---
+canvas: "https://storiies.cogapp.com/Or_4946_1r/canvas/c0"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "<strong>test strong</strong>",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2022-10-04T21:20:06.879Z",
+            "modified": "2022-10-04T21:20:11.823Z"
+        }
+    ],
+    "target": {
+        "source": "https://storiies.cogapp.com/Or_4946_1r/canvas/c0",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=698.5238647460938,1331.0882568359375,2539.4824829101562,2358.7703857421875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/testworkspace/manifests/storiiies.cogapp.com/qdl-or4946/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "761b255a-dfcc-4360-8ba3-902c909b9ae4.json",
+    "motivation": "commenting"
+}
