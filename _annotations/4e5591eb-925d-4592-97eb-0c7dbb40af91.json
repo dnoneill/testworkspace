@@ -3,29 +3,29 @@ canvas: "https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/h
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "PA LA",
-            "purpose": "commenting",
+            "created": "2022-10-12T21:00:40.308Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-10-12T21:00:40.308Z",
-            "modified": "2022-10-12T21:00:41.393Z"
+            "modified": "2022-10-12T21:04:01.322Z",
+            "purpose": "supplementing",
+            "type": "TextualBody",
+            "value": "PA LA"
         }
     ],
-    "target": {
-        "source": "https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/info.json",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=14538.8203125,9456.44921875,173.447265625,78.59375"
-        }
-    },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
     "id": "4e5591eb-925d-4592-97eb-0c7dbb40af91.json",
-    "motivation": "commenting"
+    "motivation": "commenting",
+    "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=14538.8203125,9456.44921875,173.447265625,78.59375"
+        },
+        "source": "https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/info.json"
+    },
+    "type": "Annotation"
 }
