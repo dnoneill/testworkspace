@@ -1,0 +1,31 @@
+---
+canvas: "https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/info.json"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "FAVONIVS",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2022-10-12T20:59:30.550Z",
+            "modified": "2022-10-12T20:59:35.967Z"
+        }
+    ],
+    "target": {
+        "source": "https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1078.0565185546875,5492.4482421875,587.5201416015625,223.8798828125"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "0db5b74e-3d31-4340-845a-f921985926f7.json",
+    "motivation": "commenting"
+}
