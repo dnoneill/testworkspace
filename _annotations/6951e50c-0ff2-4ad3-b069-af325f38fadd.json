@@ -3,44 +3,55 @@ canvas: "https://pm20.zbw.eu/iiif/folder/pe/000012/00001/0001/canvas"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "test",
-            "purpose": "commenting",
+            "created": "2022-11-08T22:17:04.350Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-11-08T22:17:04.350Z",
-            "modified": "2022-11-08T22:17:04.737Z"
+            "modified": "2022-11-08T22:17:04.737Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "test"
+        },
+        {
+            "created": "2022-11-08T22:17:21.279Z",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2022-11-08T22:17:22.427Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "test update"
         },
         {
             "type": "TextualBody",
-            "value": "test update",
-            "purpose": "commenting",
+            "value": "test update 2",
+            "purpose": "replying",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-11-08T22:17:21.279Z",
-            "modified": "2022-11-08T22:17:22.427Z"
+            "created": "2022-11-08T22:17:54.580Z",
+            "modified": "2022-11-08T22:17:56.770Z"
         }
     ],
+    "id": "6951e50c-0ff2-4ad3-b069-af325f38fadd.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://pm20.zbw.eu/iiif/folder/pe/000012/00001/0001/canvas",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1397.896240234375,1672.79638671875,595.4937744140625,523.312744140625"
-        },
         "dcterms:isPartOf": {
             "id": "https://dnoneill.github.io/testworkspace/manifests/pe/000012/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1397.896240234375,1672.79638671875,595.4937744140625,523.312744140625"
+        },
+        "source": "https://pm20.zbw.eu/iiif/folder/pe/000012/00001/0001/canvas"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "6951e50c-0ff2-4ad3-b069-af325f38fadd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
