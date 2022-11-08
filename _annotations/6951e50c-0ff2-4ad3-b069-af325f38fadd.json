@@ -39,15 +39,26 @@ order: 2
             "value": "test update 2"
         },
         {
+            "created": "2022-11-08T22:19:27.849Z",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "modified": "2022-11-08T22:19:30.038Z",
+            "purpose": "replying",
             "type": "TextualBody",
-            "value": "test up3",
+            "value": "test up3"
+        },
+        {
+            "type": "TextualBody",
+            "value": "test update4",
             "purpose": "replying",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-11-08T22:19:27.849Z",
-            "modified": "2022-11-08T22:19:30.038Z"
+            "created": "2022-11-08T22:20:16.353Z",
+            "modified": "2022-11-08T22:20:17.849Z"
         }
     ],
     "id": "6951e50c-0ff2-4ad3-b069-af325f38fadd.json",
