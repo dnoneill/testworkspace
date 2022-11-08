@@ -17,48 +17,15 @@ order: 2
             "value": "test"
         },
         {
-            "created": "2022-11-08T22:17:21.279Z",
-            "creator": {
-                "id": "dnoneill",
-                "name": "dnoneill"
-            },
-            "modified": "2022-11-08T22:17:22.427Z",
-            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "test update"
-        },
-        {
-            "created": "2022-11-08T22:17:54.580Z",
-            "creator": {
-                "id": "dnoneill",
-                "name": "dnoneill"
-            },
-            "modified": "2022-11-08T22:17:56.770Z",
-            "purpose": "replying",
-            "type": "TextualBody",
-            "value": "test update 2"
-        },
-        {
-            "created": "2022-11-08T22:19:27.849Z",
-            "creator": {
-                "id": "dnoneill",
-                "name": "dnoneill"
-            },
-            "modified": "2022-11-08T22:19:30.038Z",
-            "purpose": "replying",
-            "type": "TextualBody",
-            "value": "test up3"
-        },
-        {
-            "type": "TextualBody",
-            "value": "test update4",
+            "value": "tet3",
             "purpose": "replying",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2022-11-08T22:20:16.353Z",
-            "modified": "2022-11-08T22:20:17.849Z"
+            "created": "2022-11-08T22:21:08.678Z",
+            "modified": "2022-11-08T22:21:17.540Z"
         }
     ],
     "id": "6951e50c-0ff2-4ad3-b069-af325f38fadd.json",
