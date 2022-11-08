@@ -17,15 +17,15 @@ order: 2
             "value": "test"
         },
         {
-            "created": "2022-11-08T22:21:08.678Z",
+            "type": "TextualBody",
+            "value": "test12",
+            "purpose": "replying",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "modified": "2022-11-08T22:57:51.844Z",
-            "purpose": "replying",
-            "type": "TextualBody",
-            "value": "tet34"
+            "created": "2022-11-08T22:58:23.884Z",
+            "modified": "2022-11-08T22:58:28.083Z"
         }
     ],
     "id": "6951e50c-0ff2-4ad3-b069-af325f38fadd.json",
