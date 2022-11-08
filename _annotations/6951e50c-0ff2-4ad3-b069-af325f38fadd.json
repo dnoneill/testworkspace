@@ -26,17 +26,6 @@ order: 2
             "purpose": "replying",
             "type": "TextualBody",
             "value": "tet3"
-        },
-        {
-            "created": "2022-11-08T22:53:38.315Z",
-            "creator": {
-                "id": "dnoneill",
-                "name": "dnoneill"
-            },
-            "modified": "2022-11-08T22:53:45.706Z",
-            "purpose": "replying",
-            "type": "TextualBody",
-            "value": "test 7"
         }
     ],
     "id": "6951e50c-0ff2-4ad3-b069-af325f38fadd.json",
