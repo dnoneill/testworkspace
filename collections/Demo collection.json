@@ -1,0 +1,14 @@
+---
+---
+{
+    "label": "Demo collection",
+    "type": "storyboardlist",
+    "items": [
+        {
+            "board": "<iiif-storyboard annotationurl='https://dnoneill.github.io/testworkspace/annotations/0002386-list.json'></iiif-storyboard>",
+            "title": "",
+            "description": "",
+            "thumbnail": ""
+        }
+    ]
+}
