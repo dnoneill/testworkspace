@@ -37,4 +37,4 @@ settings:
   tempuser: notenabled
   viewer: default
   widgets: comment-with-purpose, tag, geotagging
-version: '2.3'
+version: '2.4'
