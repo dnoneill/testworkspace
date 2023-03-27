@@ -1,0 +1,100 @@
+---
+thumbnail: https://iiif.lib.ncsu.edu/iiif/0000017/full/150,/0/default.jpg
+title: Campus of the North Carolina State College of Agriculture and Engineering,
+  in Raleigh, capitol of the state.
+
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://dnoneill.github.io/testworkspace/manifests/catalog/0000017/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Campus of the North Carolina State College of Agriculture and Engineering, in Raleigh, capitol of the state.",
+  "related": {
+    "@id": "https://d.lib.ncsu.edu/collections/catalog/0000017",
+    "format": "text/html",
+    "label": "HTML page for the resource",
+    "dcterms:modified": "2022-10-24T17:38:54.062Z"
+  },
+  "logo": {
+    "@id": "https://d.lib.ncsu.edu/collections/assets/ncsu-libraries-white-logo-placement-fa371d02703e250a7573c9ff7efda2be0f0ab068729c9d69c4fed1c532dda73b.jpg"
+  },
+  "attribution": "University Archives Photograph Collection. Campus facilities and views (UA023.005), Special Collections Research Center at NC State University Libraries",
+  "license": [
+    "https://d.lib.ncsu.edu/collections/about#rights_and_use"
+  ],
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Campus of the North Carolina State College of Agriculture and Engineering, in Raleigh, capitol of the state."
+    },
+    {
+      "label": "Created Date",
+      "value": "circa 1940"
+    },
+    {
+      "label": "URL",
+      "value": "<span><a href=\"https://d.lib.ncsu.edu/collections/catalog/0000017\">https://d.lib.ncsu.edu/collections/catalog/0000017</a></span>"
+    },
+    {
+      "label": "",
+      "value": "<span><a title=\"IIIF drag &amp; drop\" href=\"https://d.lib.ncsu.edu/collections/catalog/0000017?manifest=https%3A%2F%2Fd.lib.ncsu.edu%2Fcollections%2Fcatalog%2F0000017%2Fmanifest.json\">IIIF drag &amp; drop</a> (<a href=\"https://d.lib.ncsu.edu/collections/about-iiif\">About IIIF</a>)</span>"
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif.lib.ncsu.edu/iiif/0000017/full/150,/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.lib.ncsu.edu/iiif/0000017",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://d.lib.ncsu.edu/collections/canvas/0000017",
+          "width": 11944,
+          "height": 9731,
+          "label": "[1]",
+          "images": [
+            {
+              "@id": "https://d.lib.ncsu.edu/collections/canvas/0000017/image",
+              "@type": "oa:Annotation",
+              "on": "https://d.lib.ncsu.edu/collections/canvas/0000017",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.lib.ncsu.edu/iiif/0000017/full/1170,/0/default.jpg",
+                "width": 11944,
+                "height": 9731,
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.lib.ncsu.edu/iiif/0000017"
+                },
+                "@type": "dctypes:Image"
+              }
+            }
+          ]
+        }
+      ],
+      "@type": "sc:Sequence",
+      "viewingHint": "non-paged"
+    }
+  ],
+  "seeAlso": [
+    {
+      "@id": "https://d.lib.ncsu.edu/collections/catalog/oai?identifier=ncsul%2F0000017&metadataPrefix=oai_dc&verb=GetRecord",
+      "format": "text/xml",
+      "label": "Dublin Core XML via OAI-PMH"
+    },
+    {
+      "@id": "https://d.lib.ncsu.edu/collections/catalog/0000017/schemaorg.json",
+      "format": "application/ld+json",
+      "profile": "https://schema.org",
+      "label": "Schema.org metadata as JSON-LD"
+    }
+  ],
+  "dcterms:modified": "2022-10-24T17:38:53.000Z",
+  "dcterms:created": null
+}
