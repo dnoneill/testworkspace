@@ -1,0 +1,34 @@
+---
+canvas: "https://jdm.library.jhu.edu/iiif-pres-dlmm/rose/AlbiRochegude103/001r/canvas"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test make copy",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2023-03-27T23:21:39.696Z",
+            "modified": "2023-03-27T23:21:41.657Z"
+        }
+    ],
+    "target": {
+        "source": "https://jdm.library.jhu.edu/iiif-pres-dlmm/rose/AlbiRochegude103/001r/canvas",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"897.4747772216797\" cy=\"1391.4217224121094\" r=\"649.2071563019373\"></circle></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/testworkspace/manifests/rose/AlbiRochegude103/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "204fe605-fb7b-4531-8d39-ebad454f0892.json",
+    "motivation": "commenting"
+}
