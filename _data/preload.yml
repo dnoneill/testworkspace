@@ -1,4 +1,8 @@
 images:
+- iiif: false
+  thumbnail: https://img.rawpixel.com/private/static/images/website/2022-05/sk9791-image-kwvuja96.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=fc25bfbbc72d1c011065beef1985c27c
+  title: ''
+  url: https://img.rawpixel.com/private/static/images/website/2022-05/sk9791-image-kwvuja96.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=fc25bfbbc72d1c011065beef1985c27c
 - iiif: true
   thumbnail: ''
   title: ''
@@ -51,6 +55,7 @@ images:
   thumbnail: https://stacks.stanford.edu/image/iiif/wh234bz9013/wh234bz9013_05_0001/full/!400,400/0/default.jpg
   title: "H\xC6MISPH\xC6RIUM STELLATVM BOREALE CVM SUBIECTO H\xC6MISPH\xC6RO TERRESTRI."
   url: https://purl.stanford.edu/wh234bz9013/iiif/manifest
+manifests: []
 settings:
   tempuser: notenabled
   viewer: default
