@@ -1,0 +1,34 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/0002386"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test4",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2023-04-19T22:18:05.512Z",
+            "modified": "2023-04-19T22:18:06.138Z"
+        }
+    ],
+    "target": {
+        "source": "https://d.lib.ncsu.edu/collections/canvas/0002386",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"3633.6209716796875\" cy=\"529.2424011230469\" r=\"447.6107914864068\"></circle></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://d.lib.ncsu.edu/collections/catalog/0002386/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "6b3a0bbe-b08a-4cba-b2d6-2215f51ce7b5.json",
+    "motivation": "commenting"
+}
