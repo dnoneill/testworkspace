@@ -1,0 +1,25 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/segIns_004"
+order: 4
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://d.lib.ncsu.edu/collections/catalog/segIns_004/manifest",
+                "type": "Manifest"
+            },
+            "id": "https://d.lib.ncsu.edu/collections/canvas/segIns_004",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2649.939453125,2120.69921875 5344.67333984375,4067.09423828125 2294.18212890625,4154.24609375\"></polygon></svg>"
+        }
+    },
+    "id": "beac5c60-6645-4cbc-b8ea-717be6c948c1.json",
+    "motivation": "commenting"
+}
