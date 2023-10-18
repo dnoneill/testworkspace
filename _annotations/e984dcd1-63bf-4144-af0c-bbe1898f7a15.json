@@ -4,35 +4,34 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "test",
-            "purpose": "commenting",
+            "created": "2023-10-18T16:52:39.493Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2023-10-18T16:52:39.493Z",
-            "modified": "2023-10-18T16:52:39.932Z"
+            "modified": "2023-10-18T16:52:39.932Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "test"
         }
     ],
+    "id": "e984dcd1-63bf-4144-af0c-bbe1898f7a15.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "value": "<svg><polygon points=\"696.3952026367188,2207.85107421875 1422.6620788574219,2207.85107421875 2148.928955078125,2207.85107421875 2148.928955078125,2643.6112060546875 2148.928955078125,3079.371337890625 1422.6620788574219,3079.371337890625 696.3952026367188,3079.371337890625 696.3952026367188,2643.6112060546875\"></polygon></svg>",
+            "type": "SvgSelector"
+        },
         "source": {
+            "id": "https://d.lib.ncsu.edu/collections/canvas/segIns_004",
             "partOf": {
                 "id": "https://d.lib.ncsu.edu/collections/catalog/segIns_004/manifest",
                 "type": "Manifest"
             },
-            "id": "https://d.lib.ncsu.edu/collections/canvas/segIns_004",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=696.3952026367188,2207.85107421875,1452.5337524414062,871.520263671875"
         }
     },
-    "id": "e984dcd1-63bf-4144-af0c-bbe1898f7a15.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
